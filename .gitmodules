@@ -1,0 +1,6 @@
+[submodule ".config/ghostty/shaders"]
+	path = .config/ghostty/shaders
+	url = https://github.com/0xhckr/ghostty-shaders.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/kebibgit/neovim.git
