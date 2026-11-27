@@ -9,6 +9,9 @@ mv ~/.config/fastfetch ~/.config/ghostty ~/.config/kitty ~/.config/nvim ~/.confi
 
 git clone --recurse-submodules https://github.com/kebiBGit/dotfiles.git ~/dotfiles
 
+cd ~/dotfiles/
+git submodule update --init --recursive .config/nvim
+
 # Copy configuration from cloned repo to your system
 cp -r ~/dotfiles/.config ~/
 cp ~/dotfiles/.p10k.zsh ~/
